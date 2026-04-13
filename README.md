@@ -1,8 +1,8 @@
-# 📄 html-to-pdf-cli
+# 📄 link-to-pdf-cli
 
 **A professional, high-performance CLI to transform the web into pixel-perfect PDFs.** *Built with TypeScript and powered by Puppeteer for modern, headless rendering.*
 
-[![npm version](https://img.shields.io/npm/v/html-to-pdf-cli.svg)](https://www.npmjs.com/package/html-to-pdf-cli)
+[![npm version](https://img.shields.io/npm/v/link-to-pdf-cli.svg)](https://www.npmjs.com/package/link-to-pdf-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](https://nodejs.org/)
 
@@ -23,13 +23,13 @@
 ### 1. Instant Run (No Install)
 The fastest way to use the tool without cluttering your global modules:
 ```bash
-npx html-to-pdf-cli -u [https://google.com](https://google.com)
+npx link-to-pdf-cli -u [https://google.com](https://google.com)
 ```
 
 ### 2. Global Installation
 For frequent use, install it globally:
 ```bash
-npm install -g html-to-pdf-cli
+npm install -g link-to-pdf-cli
 ```
 
 ---
@@ -39,7 +39,7 @@ npm install -g html-to-pdf-cli
 ### Single URL Conversion
 Convert a webpage and save it to your current directory:
 ```bash
-html-to-pdf-cli -u [https://github.com](https://github.com)
+link-to-pdf-cli -u [https://github.com](https://github.com)
 ```
 
 ### Bulk Conversion
@@ -51,12 +51,12 @@ Create a file (e.g., `links.txt`) with one URL per line:
 ```
 Run the bulk command and specify an output folder:
 ```bash
-html-to-pdf-cli -f links.txt -o ./my-pdfs/
+link-to-pdf-cli -f links.txt -o ./my-pdfs/
 ```
 
 ### Display Help
 ```bash
-html-to-pdf-cli --help
+link-to-pdf-cli --help
 ```
 
 ---
@@ -79,8 +79,8 @@ If you want to contribute or customize the tool:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/html-to-pdf-cli.git](https://github.com/sakshambakshi/html-to-pdf-cli.git)
-    cd html-to-pdf-cli
+    git clone [https://github.com/your-username/link-to-pdf-cli.git](https://github.com/sakshambakshi/link-to-pdf-cli.git)
+    cd link-to-pdf-cli
     ```
 2.  **Install & Build:**
     This installs dependencies and compiles the TypeScript source from `src/` to `dist/`.

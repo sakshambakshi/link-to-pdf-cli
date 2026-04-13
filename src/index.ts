@@ -8,7 +8,7 @@ import { join, resolve } from 'path';
 const program = new Command();
 
 program
-  .name('html-to-pdf-cli')
+  .name('link-to-pdf-cli')
   .description('A CLI to convert URLs to PDF files.')
   .version('1.0.0')
   .option('-u, --url <url>', 'Download a single URL as PDF')

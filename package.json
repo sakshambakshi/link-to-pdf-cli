@@ -1,11 +1,11 @@
 {
-  "name": "html-to-pdf-cli",
+  "name": "link-to-pdf-cli",
   "version": "1.0.0",
   "description": "Convert URLs to PDF from CLI",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "html-to-pdf-cli": "dist/index.js"
+    "link-to-pdf-cli": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
