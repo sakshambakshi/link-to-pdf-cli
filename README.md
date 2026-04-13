@@ -39,15 +39,15 @@ npm install -g link-to-pdf-cli
 ### Single URL Conversion
 Convert a webpage and save it to your current directory:
 ```bash
-link-to-pdf-cli -u [https://github.com](https://github.com)
+link-to-pdf-cli -u https://github.com
 ```
 
 ### Bulk Conversion
 Create a file (e.g., `links.txt`) with one URL per line:
 ```text
-[https://nodejs.org](https://nodejs.org)
-[https://typescriptlang.org](https://typescriptlang.org)
-[https://google.com](https://google.com)
+https://nodejs.org
+https://typescriptlang.org
+https://google.com
 ```
 Run the bulk command and specify an output folder:
 ```bash
