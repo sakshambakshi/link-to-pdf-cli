@@ -1,6 +1,6 @@
 {
   "name": "link-to-pdf-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert URLs to PDF from CLI",
   "main": "dist/index.js",
   "type": "module",
